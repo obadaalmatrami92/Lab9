@@ -1,11 +1,12 @@
 /* HEADER */
 
 body {
-    font-family: Helvetica;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkgrey;
 }
 
 header {
-    background: #444;
+    background: rgb(117, 5, 5);
     height: 100px;
 }
 
@@ -28,7 +29,7 @@ header ul li {
 
 a {
     text-decoration: none;
-    color: #888;
+    color: rgb(250, 244, 244);
 }
 
 
@@ -111,7 +112,7 @@ button {
 }
 
 button:hover {
-    background: green;
+    background: blue;
 }
 
 
