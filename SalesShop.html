@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Momeries </title>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+
+    <style>
+        body {
+            color: black;
+            background-color: black;
+            background-image: url('https://userscontent2.emaze.com/images/b0f65872-45ba-4271-ac92-d01831d55c14/a1f7fbe00d55b0dd5abb20a15a38aa24.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-size: x-large;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="sticky">
+
+            <ul>
+                <li>
+                    <a href="Home.html"> Home </a>
+
+                </li>
+                <li>
+                    <a href="SalesShop.html">Momries of Cookies-Shop </a>
+                </li>
+                <li>
+                    <a href="index.html">Cookies-Sales</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form>
+        <fieldset>
+
+            <h2 class="100%-style1"> The Memories Of Cookie Shop</h2>
+
+
+            <div class="100%-style2">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1/15</div>
+                    <img src="images/butter-cookies.jpg" />
+                    <div class="text:bold;"> butter-cookies </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2/15</div>
+                    <img src="images/cacao-butter-cookies.jpg" />
+                    <div class="text:bold;">cacao-butter-cookies</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3/15</div>
+                    <img src="images/Chewy Pumpkin Chocolate.jpg" />
+                    <div class="text:bold;"> Chewy pumpkin Chocolate </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4/15</div>
+                    <img src="images/chinook.jpg" />
+                    <div class="text:bold;"> chinook</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5/15</div>
+                    <img src="images/cutter.jpeg" />
+                    <div class="text:bold;"> cutter </div>
+                </div>
+
+
+                <div class="mySlides fade">
+                    <div class="numbertext"> 6/15</div>
+                    <img src="images/family.jpg" />
+                    <div class="texttext:bold;">Family</div>
+                </div>
+
+
+                <div class="mySlides fade">
+                    <div class="numbertext">7/15</div>
+                    <img src="images/fish.jpg" />
+                    <div class="texttext:bold;"> Fish </div>
+
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">8/15</div>
+                    <img src="images/frosted-cookie.jpg" />
+                    <div class="texttext:bold;"> frosted-cookie </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"> 9/15</div>
+                <img src="images/MM-Chocolate.jpg" />
+                <div class="texttext:bold;"> MM-Chocolate </div>
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">10/15</div>
+                <img src="images/nutella-cookies.jpg" />
+                <div class="texttext:bold;"> nutella-cookies </div>
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">11/15</div>
+                <img src="images/red-velvet-sugar-cookies.jpg" />
+                <div class="texttext:bold;"> red-velvet-sugar-cookies </div>
+
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 12/15</div>
+                <img src="images/salmon.png" />
+                <div class="texttext:bold;"> salmon </div>
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 13/15</div>
+                <img src="images/shirt.jpg" />
+                <div class="texttext:bold;"> SHirt </div>
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 14/15</div>
+                <img src="images/soft-chewy-sugar.jpg" style="width: 50%" />
+                <div class="texttext:bold;"> soft-chewy-sugar </div>
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">15/15</div>
+                <img src="images/twix-cookies.jpg" style="width: 50%" />
+                <div class="texttext:bold;"> twix-cookies </div>
+
+            </div>
+
+
+            <p>
+                <div style="text-align: center">
+
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+
+                </div>
+            </p>
+        </fieldset>
+    </form>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 4000);
+        }
+    </script>
+    <footer>Copy Rights oct 2019</footer>
+</body>
+
+</html>

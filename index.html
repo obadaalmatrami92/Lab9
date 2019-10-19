@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        nav ul li {
+            margin: 20px, 20px, 20px, 20px;
+            padding: 20px;
+            display: inline-block;
+        }
+        
+        nav {
+            text-align: center;
+            background-color: black;
+        }
+        
+        a {
+            color: whitesmoke;
+            font-size: 40px;
+        }
+        
+        footer {
+            padding: 50px;
+            height: 70px;
+            background: black;
+            color: whitesmoke;
+            text-align: center;
+        }
+    </style>
+
+    <title>Solve-problems</title>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="Home.html"> Home </a>
+
+            </li>
+            <li>
+                <a href="SalesShop.html">Momries of Cookies-Shop </a>
+            </li>
+            <li>
+                <a href="index.html">Cookies-Sales</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>
+        Salmon Cookies
+    </h1>
+    <h3> " Welcome to our Salmon-Cookies Shop we hope you enjoy with cookies.. "</h3>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<main>
+
+    <head>
+        <title> Cookies - Shop </title>
+    </head>
+
+    <body>
+
+        <form id="addShopForm">
+            <fieldset>
+                <legend>Shop Information</legend>
+                <label id="label">Location: </label>
+                <input type="text" name="location" required><br>
+
+                <label id="label">Minimum Customers: </label>
+                <input type="number" name="min" required><br>
+                <label id="label">Maximum Customers</label>
+                <input type="number" name="max" required><br>
+                <label id="label">Average Sales</label>
+                <input type="number" step="0.1" name="avgSales" required>
+
+
+
+                <button type="submit">Submit</button>
+
+            </fieldset>
+
+        </form>
+
+        <div id="CookiesTable">
+
+        </div>
+        <div id="content-area">
+
+        </div>
+</main>
+<script src='js/app.js'></script>
+<footer>Copy Rights oct 2019</footer>
+
+</body>
+
+</html>
